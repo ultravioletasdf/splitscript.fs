@@ -55,6 +55,7 @@ ssfs.rename("FILEPATH.FILETYPE", "NEWFILEPATH.NEWFILETYPE");
 
 # 📜 Changelog <a id="changelog"> </a>
 
-| Version |          Description          |
-| :-----: | :---------------------------: |
-|  0.0.1  | All functions. Possibly Buggy |
+| Version |            Description            |
+| :-----: | :-------------------------------: |
+|  0.0.1  |   All functions. Possibly Buggy   |
+|  0.0.2  | Corrected incorrect variable name |

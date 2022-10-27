@@ -55,8 +55,9 @@ ssfs.rename("FILEPATH.FILETYPE", "NEWFILEPATH.NEWFILETYPE");
 
 # 📜 Changelog <a id="changelog"> </a>
 
-| Version |                   Description                    |
-| :-----: | :----------------------------------------------: |
-|  0.0.1  |          All functions. Possibly Buggy           |
-|  0.0.2  |        Corrected incorrect variable name         |
-|  0.0.3  | Made paramater data in function "write" optional |
+| Version |                       Description                        |
+| :-----: | :------------------------------------------------------: |
+|  0.0.1  |                      All functions                       |
+|  0.0.2  |            Corrected incorrect variable name             |
+|  0.0.3  |    Made paramater "data" in function "write" optional    |
+|  0.0.4  | Fixed bug "no such file or directory" on windows devices |

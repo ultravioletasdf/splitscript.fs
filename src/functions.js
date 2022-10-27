@@ -5,7 +5,7 @@ module.exports = {
     return fs.readFileSync(path + filename);
   },
   write: function (filename, data) {
-    fs.writeFileSync(path + filename, data);
+    fs.writeFileSync(path + filename, data ?? "");
     return data;
   },
   append: function (filename, data) {

@@ -1,14 +1,16 @@
 const fs = require("fs");
-const { path } = require("./utils.js");
+const { path, createDirs } = require("./utils.js");
 module.exports = {
   read: function (filename) {
     return fs.readFileSync(path + filename);
   },
   write: function (filename, data) {
+    createDirs(filename)
     fs.writeFileSync(path + filename, data ?? "");
     return data;
   },
   append: function (filename, data) {
+    createDirs(filename)
     fs.appendFileSync(path + filename, data);
   },
   delete: function (filename) {

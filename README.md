@@ -62,3 +62,4 @@ ssfs.rename('FILEPATH.FILETYPE', 'NEWFILEPATH.NEWFILETYPE');
 |  0.0.3  |            Made paramater "data" in function "write" optional             |
 |  0.0.4  |         Fixed bug "no such file or directory" on windows devices          |
 |  0.1.0  | Functions "create" and "append" create non-existant folders automatically |
+|  0.1.1  |                     Removed unnecessary dependencies                      |

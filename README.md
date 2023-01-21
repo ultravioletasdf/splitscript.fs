@@ -1,57 +1,20 @@
-# Simple module to manage files in a [`SplitScript.js`](https://www.npmjs.com/package/splitscript.js) project
+<div align="center">
+	<a href="https://www.npmjs.com/package/splitscript.js">
+	<img src="https://i.imgur.com/reht9nR.png;" style="padding-bottom:10px;" height="150">
+	</a>
+	<br>
+	<a href="https://discord.gg/WJySJ7HdrZ"><img src="https://img.shields.io/discord/1033343718494847007?color=5865F2&logo=discord&logoColor=white"></a>
+	<img src="https://img.shields.io/npm/v/splitscript.fs?color=9477CB&label=version">
+	<img src="https://img.shields.io/npm/dt/splitscript.fs.svg?color=FF6666">
+	<br>
+	<a href="https://splitscript.js.org/docs/fs" >
+	<img src="https://i.imgur.com/xUQ8o9P.png" height="75px" style="margin-top:15px;">
+	</a>
+</div>
+
+A tiny module for managing files in a SplitScript.js project
 
 All files are created in the `files/` directory in the root of your project.
-
-# 🔗 Contents
-
-1. [👨‍💻 API Reference](#reference)
-1. [📜 Changelog](#changelog)
-
-# 👨‍💻 API Reference <a id="reference"></a>
-
-Files edited are like: `{project_root}/files/{filepath}.{filetype}`
-Example file path: `folder1/folder2/filename`
-Example file type: `js`
-
-```js
-const ssfs = require('splitscript.fs');
-```
-
-##&emsp;read
-
-&emsp;&emsp;_Gets contents of an existing file_
-
-```js
-let txt = ssfs.read('FILEPATH.FILETYPE');
-```
-
-##&emsp;write
-&emsp;&emsp;_Overwrites the contents of a file, or creates a new one_
-
-```js
-ssfs.write('FILEPATH.FILETYPE', 'DATA/BUFFER');
-```
-
-##&emsp;append
-&emsp;&emsp;_Adds data to the end of a file, or creates a new one_
-
-```js
-ssfs.append('FILEPATH.FILETYPE', 'DATA/BUFFER');
-```
-
-##&emsp;delete
-&emsp;&emsp;_Deletes a file_
-
-```js
-ssfs.delete('FILEPATH.FILETYPE');
-```
-
-##&emsp;rename
-&emsp;&emsp;_Renames a file_
-
-```js
-ssfs.rename('FILEPATH.FILETYPE', 'NEWFILEPATH.NEWFILETYPE');
-```
 
 # 📜 Changelog <a id="changelog"> </a>
 
@@ -63,3 +26,4 @@ ssfs.rename('FILEPATH.FILETYPE', 'NEWFILEPATH.NEWFILETYPE');
 |  0.0.4  |         Fixed bug "no such file or directory" on windows devices          |
 |  0.1.0  | Functions "create" and "append" create non-existant folders automatically |
 |  0.1.1  |                     Removed unnecessary dependencies                      |
+|  0.1.2  |                             Updated README.md                             |
